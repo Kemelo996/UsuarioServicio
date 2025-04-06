@@ -1,10 +1,11 @@
-package co.edu.uceva.usuarioservicio.model.services;
+package co.edu.uceva.usuarioservicio.domain.services;
 
-import co.edu.uceva.usuarioservicio.model.entities.Usuario;
+import co.edu.uceva.usuarioservicio.domain.model.Usuario;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * Interface que define los métodos que se pueden realizar sobre la entidad Usuario

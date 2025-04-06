@@ -1,22 +1,13 @@
-package co.edu.uceva.usuarioservicio.model.services;
+package co.edu.uceva.usuarioservicio.domain.services;
 
-import co.edu.uceva.usuarioservicio.model.entities.Usuario;
-import co.edu.uceva.usuarioservicio.model.repositories.IUsuarioRepository;
-import org.springframework.stereotype.Service;
-
-import co.edu.uceva.usuarioservicio.model.entities.Usuario;
-import co.edu.uceva.usuarioservicio.model.repositories.IUsuarioRepository;
+import co.edu.uceva.usuarioservicio.domain.model.Usuario;
+import co.edu.uceva.usuarioservicio.domain.repositories.IUsuarioRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import java.util.List;
 
-/**
- * Clase que implementa los métodos de la interfaz IUsuarioService
- * para realizar las operaciones de negocio sobre la entidad Usuario
- */
 @Service
 public class UsuarioServiceImpl implements IUsuarioService {
 
